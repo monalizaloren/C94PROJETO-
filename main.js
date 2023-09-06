@@ -8,7 +8,8 @@ hole_x=800;
 block_image_width = 5;
 block_image_height = 5;
 
-function load_img(){
+//Crie a função load_img
+function ???(){
 	fabric.Image.fromURL("golf-b.png", function(Img) {
 		hole_obj = Img;
 		hole_obj.scaleToWidth(50);
